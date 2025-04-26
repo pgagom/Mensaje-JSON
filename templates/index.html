@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mensajes</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Sonido de clic -->
+    <audio id="clickSound" src="/static/click.mp3"></audio>
+
+    <h1 class="neon-title">¡Guardar mensajes!</h1>
+    <form id="formulario">
+        <div class="input-wrapper">
+            <input id="entradaUsuario" placeholder="Escribe aquí...">
+        </div>
+        <div class="button-container">
+            <button onclick="document.getElementById('clickSound').play()">Enviar</button>
+        </div>
+    </form>
+    <script src="/static/script.js"></script>
+</body>
+</html>
